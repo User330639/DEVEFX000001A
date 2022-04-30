@@ -6,3 +6,5 @@ TBD
 TBD
 ## SMB tree
 TBD
+## Libs and templates
+Will be available at https://github.com/User330639/LIBS
