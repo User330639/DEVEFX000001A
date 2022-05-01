@@ -310,6 +310,23 @@ GenerateClassCluster=0
 DocumentUniqueId=LIFWRYYV
 
 [Document17]
+DocumentPath=11_MEM_HYPERRAM_FLASH.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ILTGHIWL
+
+[Document18]
 DocumentPath=DEVEFX000001A.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
