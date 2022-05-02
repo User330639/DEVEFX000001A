@@ -293,13 +293,13 @@ GenerateClassCluster=0
 DocumentUniqueId=JIQQONQA
 
 [Document16]
-DocumentPath=10_FPGA_HSIO_PWR.SchDoc
+DocumentPath=10_FPGA_PWR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=9
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -327,6 +327,40 @@ GenerateClassCluster=0
 DocumentUniqueId=ILTGHIWL
 
 [Document18]
+DocumentPath=12_MEM_DDR3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TKQJPNGO
+
+[Document19]
+DocumentPath=13_IO_ETH.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FUJWQRHY
+
+[Document20]
 DocumentPath=DEVEFX000001A.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -342,6 +376,24 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LDYBPFTT
+
+[ProjectVariant1]
+UniqueID=D5F640D1-FF08-4934-BE34-AC4A2A080378
+Description=DEVEFX000001A
+AllowFabrication=0
+ParameterCount=0
+VariationCount=10
+Variation1=Designator=R24|UniqueId=\ESWRTADV|Kind=1|AlternatePart= 
+Variation2=Designator=R25|UniqueId=\ULAPTYRC|Kind=1|AlternatePart= 
+Variation3=Designator=R29|UniqueId=\VTIEYQQI|Kind=1|AlternatePart= 
+Variation4=Designator=R28|UniqueId=\OFQKGFEP|Kind=1|AlternatePart= 
+Variation5=Designator=R27|UniqueId=\WQWTFAXY|Kind=1|AlternatePart= 
+Variation6=Designator=R26|UniqueId=\ZYFKKWVZ|Kind=1|AlternatePart= 
+Variation7=Designator=R33|UniqueId=\IUENSJOG|Kind=1|AlternatePart= 
+Variation8=Designator=R33|UniqueId=\IBQFUSNY|Kind=1|AlternatePart= 
+Variation9=Designator=R40|UniqueId=\FDOWICOY|Kind=1|AlternatePart= 
+Variation10=Designator=C39|UniqueId=\UMQQXFPX|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
@@ -1374,7 +1426,7 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
